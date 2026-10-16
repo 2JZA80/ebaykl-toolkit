@@ -32,16 +32,17 @@ Playwright
 
 ## Setup Instructions
 1. Clone the Repository
-
 bash
 Copy
 git clone https://github.com/nerdstoff/ebaykl-toolkit.git
 cd ebaykl-toolkit
+
 2. Set Up Virtual Environment
 bash
 Copy
 python -m venv .venv
-Activate the virtual environment:
+
+Activate the virtual environment!
 
 ## On Windows:
 
@@ -71,14 +72,23 @@ Edit the settings.json file to specify your search criteria, location, and other
 
 ebaykl_toolkit/
 ├── .venv/                 # Virtual environment
+
 ├── requirements.txt       # Python dependencies
+
 ├── launcher.py            # CLI launcher
+
 ├── settings.json          # Configuration file
+
 ├── ebaykl_scraper.py      # Main scraper logic
+
 ├── enrich_results.py      # Enrichment logic
+
 ├── filter_results.py      # Filtering logic
+
 ├── collect_cached_urls.py # Utility for collecting cached URLs
+
 ├── debug_browser.py       # Debugging utilities
+
 └── utils/                 # Utility functions
 ## Contributing
 Contributions are welcome! To get started:
