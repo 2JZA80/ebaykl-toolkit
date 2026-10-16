@@ -37,6 +37,7 @@ bash
 Copy
 git clone https://github.com/nerdstoff/ebaykl-toolkit.git
 cd ebaykl-toolkit
+
 2. Set Up Virtual Environment
 bash
 Copy
@@ -54,17 +55,17 @@ bash
 Copy
 source .venv/bin/activate
 
-3. Install Dependencies
+1. Install Dependencies
 bash
 Copy
 pip install -r requirements.txt
 
-4. Install Playwright Browsers
+2. Install Playwright Browsers
 bash
 Copy
 playwright install
 
-5. Configure Settings
+3. Configure Settings
 Edit the settings.json file to specify your search criteria, location, and other preferences.
 
 ##Project Structure
